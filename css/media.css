@@ -1,0 +1,291 @@
+ /* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+ /* header start */
+ header {
+    padding: 0 0px;
+ }
+ .logo {
+    width: 180px;
+ }
+ .menu ul li a {
+    padding: 0 10px 8px !important;
+   
+}
+/* banner start */
+.banner {
+    padding-bottom: 60px;
+}
+ .b_text {
+    text-align: center;
+}
+.bh1 {
+    padding: 0;
+    font-size: 30px;
+    line-height: 45px;
+}
+.bp2 {
+    padding: 0;
+    line-height: 30px;
+}
+
+ .b_img {
+    margin-bottom: 30px;
+    padding: 0;
+}
+/* banner end */
+/* feature start */
+.p_c{
+    padding-bottom: 60px;
+}
+.s_feature{
+    margin: 30px 0 0;
+}
+/* feature end */
+/* course start */
+.c_h1 {
+    font-size: 30px;
+}
+ /* Courses start */
+ .c_h1 {
+    font-size: 30px;
+}
+
+.sc_single {
+    margin: 40px 0 0;
+    padding: 20px 15px 25px;
+}
+
+
+.sc_left ul li span,
+.sc_right ul li span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sc_left ul li img,
+.sc_right ul li img {
+    width: 20px;
+}
+
+/* Courses end */
+/* testimony start */
+.testimony{
+    padding-bottom: 60px;
+}
+.t_item{
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 60px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/* testimony end */
+/* footer top start */
+.footer_top{
+    text-align: center;
+    padding: 55px 0 20px;
+}
+.ft_details{
+    margin-bottom: 35px;
+    padding-right: 0;
+}
+.ft_links{
+    margin-bottom:35px;
+}
+/* footer top end */
+}
+/*  Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+     /* header start */
+     header {
+        padding: 0 0px;
+     }
+     .logo {
+        width: 190px;
+     }
+     .menu ul li a {
+        padding: 0 10px 8px !important;
+       
+    }
+/* banner start */
+.banner {
+    padding-bottom: 60px;
+}
+ .b_text {
+    text-align: center;
+}
+.bh1 {
+    padding: 0 100px 0;
+    font-size: 30px;
+    line-height: 45px;
+}
+.bp2 {
+    padding: 0 50px;
+}
+ .b_img {
+    margin-bottom: 30px;
+    padding: 0 60px;
+}
+/* banner end */
+ 
+/* feature start */
+.p_c{
+    padding-bottom: 60px;
+}
+.s_feature{
+    margin: 30px 0 0;
+}
+/* course start */
+.c_h1 {
+    font-size: 30px;
+}
+.sc_single {
+    margin: 40px 70px 0;
+}
+/* testimony start */
+.testimony{
+    padding-bottom: 60px;
+}
+.t_item{
+    margin-top: 30px;
+}
+.t_img{
+    padding: 0 120px 20px;
+}
+.t_text{
+    text-align: center;
+}
+/* testimony end */
+/* footer top start */
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom:35px;
+    padding-left: 70px;
+    padding-right: 70px;
+}
+/* footer top end */
+}
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+    /* header start */
+    .menu ul li a {
+        padding: 0 10px 8px !important;
+       
+    }
+    /* feature start */
+    .p_c {
+        padding-bottom: 80px;
+    } 
+    /* feature end */
+ 
+ /* banner start */
+ .b_text {
+    text-align: center;
+}
+.bh1 {
+    padding: 0 140px 0;
+    font-size: 40px;
+    line-height: 50px;
+}
+.bp2 {
+    padding: 0 110px;
+}
+ .b_img {
+    padding: 0 100px;
+    margin-bottom: 30px;
+}
+/* banner end */
+/* Courses start */
+.sc_single {
+    margin: 40px 150px 0;
+    padding: 25px 20px 30px;
+}
+/* Courses End */
+/* testmony start */
+.testimony {
+    padding-bottom: 80px;
+}
+.t_item{
+    margin-top: 40px;
+}
+/* testimony end */
+/* footer top start */
+.footer_top{
+    text-align: center;
+}
+.ft_details{
+    margin-bottom:35px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/* footer top end */
+}
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+     /* Courses start */
+     .sc_single {
+        padding: 20px 15px 25px;
+    }
+
+    .sc_right ul li span {
+        font-weight: 400;
+        font-size: 14px;
+    }
+
+    .sc_left ul li img,
+    .sc_right ul li img {
+        width: 20px;
+    }
+
+    /* Courses End */
+  }
+/*  Extra large devices (Extra large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {  }
+/*  Extra Extra large devices (Extra Extra large desktops, 1400px and up) */
+@media (min-width: 1400px) { 
+    /* banner start */
+    .bh1 {
+        padding: 0 105px 0 0; 
+    }
+    /* banner end */
+    /* feature start */
+    .s_feature{
+        padding: 65px 0 60px;
+    }
+     /* feature end */
+ }
+ /* online course start */
+ .course{}
+ .c_title{}
+.c_h1{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+}
+/* Courses start */
+.sc_single {
+    padding: 20px 15px 25px;
+}
+
+.sc_left ul li span,
+.sc_right ul li span {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.sc_left ul li img,
+.sc_right ul li img {
+    width: 20px;
+
+/* Courses End */
+ /* online course end */
+/* footer top start */
+.ft_details{
+    padding-right: 130px;
+}
+/* footer top end */
+}
